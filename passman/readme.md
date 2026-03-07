@@ -94,7 +94,7 @@ Follow these steps:
 
     JS: Vanilla JavaScript (No heavy frameworks)
 
-    Protection: CSRF-ready, IDOR-protected, and SQLi-immune.
+    Protection: IDOR-protected, and SQLi-immune.
 
 Would you like me to help you generate the LICENSE file text to protect your code rights as well?
 أنت قلت
