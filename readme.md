@@ -54,15 +54,7 @@ Passman is a professional-grade, lightweight password management system. It is d
 
     Dynamic Evaluation: Uses a custom JavaScript engine to evaluate password entropy as you type.
 
-    Visual Feedback: Features a color-coded progress bar:
-
-        🔴 Red: Weak
-
-        🟠 Orange: Fair
-
-        🔵 Blue: Good
-
-        🟢 Emerald: Strong (includes glowing shadow effects).
+    Visual Feedback: Features a color-coded progress bar
 
 5. 🛠️ CRUD Management (Create, Read, Update, Delete)
 
