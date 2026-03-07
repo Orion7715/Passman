@@ -54,9 +54,11 @@ Passman is a professional-grade, lightweight password management system. It is d
     Secure Export: Download your entire vault into a CSV file for offline backup.
 
 
-    ## Run setup.php in your browser to initialize the SQLite database.
+    ##### Run setup.php in your browser to initialize the SQLite database.
+
 
     SECURITY WARNING: After the database is created, you must delete setup.php from your server to prevent unauthorized resets:
+   
 ```bash
 rm setup.php
 ```
