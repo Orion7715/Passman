@@ -1,7 +1,8 @@
 🛡️ Passman - Ultimate Secure PHP Password Manager
 
 Passman is a professional-grade, lightweight password management system. It is designed with a "Security-First" mindset, combining robust AES-256 encryption with a modern, responsive interface built using Tailwind CSS.
-✨ Full Feature List & Functionality
+
+### ✨ Full Feature List & Functionality
 1. Advanced Encryption Engine (AES-256-CBC)
 
     Every password you save is encrypted using the industry-standard AES-256-CBC algorithm before it ever touches the database.
