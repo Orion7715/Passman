@@ -1,21 +1,4 @@
 
-
-
-
-### 🛠️ Technical Specifications
-
-    Core: PHP 8.x (PDO SQLite)
-
-    Styling: Tailwind CSS (Dark Mode optimized)
-
-    Icons: Heroicons (SVG based)
-
-    JS: Vanilla JavaScript (No heavy frameworks)
-
-    Protection: CSRF-ready, IDOR-protected, and SQLi-immune.
-
----
-
 # make 🛡️ Passman - Ultimate Secure PHP Password Manager
 
 Passman is a professional-grade, lightweight password management system. It is designed with a "Security-First" mindset, combining robust AES-256 encryption with a modern, responsive interface built using Tailwind CSS.
