@@ -131,27 +131,6 @@ Bulk Import: Migrate from other managers easily by uploading a CSV.
 
 Secure Export: Download your entire vault into a CSV file for offline backup.
 
-🔒 Mandatory Security Configuration
-
-1. Enabling .htaccess (The Directory Guard)
-
-By default, Apache often ignores security files. You must enable AllowOverride to ensure the /includes and /actions folders are hidden from the public.
-
-Follow these steps:
-
-
-Open your Apache config:
-
-sudo nano /etc/apache2/apache2.conf
-
-Search for the <Directory /var/www/> block.
-
-Change AllowOverride None to AllowOverride All:
-
-
-Apache
-
-it style with titles and emojies and arrang
 قال Gemini
 🛡️ Passman: Ultimate Secure PHP Password Manager
 
@@ -215,41 +194,7 @@ Passman is a professional-grade, lightweight password management system. It is d
 
     Secure Export: Download your entire encrypted vault into a CSV file for offline backup.
 
-🔒 Mandatory Security Configuration
-🛡️ Enabling .htaccess (The Directory Guard)
 
-By default, Apache often ignores security files. You must enable AllowOverride to ensure the /includes and /actions folders are strictly hidden from public access.
-Follow these steps:
-
-    Open your Apache config:
-    Bash
-
-sudo nano /etc/apache2/apache2.conf
-
-Search for the /var/www/ block:
-Look for the <Directory /var/www/> section.
-
-Update the Override Policy:
-Change AllowOverride None to AllowOverride All:
-Apache
-
-<Directory /var/www/>
-    Options Indexes FollowSymLinks
-    AllowOverride All    <-- Change this word
-    Require all granted
-</Directory>
-
-Restart Apache:
-Bash
-
-    sudo a2enmod rewrite
-    sudo systemctl restart apache2
-
-🚀 Post-Installation Security
-
-    [!IMPORTANT]
-    After running the setup.php file to create your database, you must delete it immediately to prevent unauthorized database resets.
-    Bash
 
     rm setup.php
 
