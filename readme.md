@@ -52,39 +52,15 @@ Passman is a professional-grade, lightweight password management system. It is d
 
     Secure Export: Download your entire vault into a CSV file for offline backup.
 
-🔒 Mandatory Security Configuration
-1. Enabling .htaccess (The Directory Guard)
 
-By default, Apache often ignores security files. You must enable AllowOverride to ensure the /includes and /actions folders are hidden from the public.
-
-Follow these steps:
-
-    Open your Apache config:
-
-    sudo nano /etc/apache2/apache2.conf
-
-    Search for the <Directory /var/www/> block.
-
-    Change AllowOverride None to AllowOverride All:
-    Apache
-
-    <Directory /var/www/>
-        Options Indexes FollowSymLinks
-        AllowOverride All    <-- IMPORTANT: Change this here
-        Require all granted
-    </Directory>
-
-    Activate the rewrite module and restart:
-    sudo a2enmod rewrite && sudo systemctl restart apache2
-
-2. Finalizing Installation
-
-    Run setup.php in your browser to initialize the SQLite database.
+    ## Run setup.php in your browser to initialize the SQLite database.
 
     SECURITY WARNING: After the database is created, you must delete setup.php from your server to prevent unauthorized resets:
-    rm setup.php
+```bash
+rm setup.php
+```
 
-🛠️ Technical Specifications
+### 🛠️ Technical Specifications
 
     Core: PHP 8.x (PDO SQLite)
 
